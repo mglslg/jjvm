@@ -23,6 +23,8 @@ public class JvmDefaultClassLoader implements JvmClassLoader {
     public JvmDefaultClassLoader(Path classPath) {
         this.classPath = classPath;
     }
+
+    @Override
     public JvmClass loadClass(String className) throws ClassNotFoundException{
         //
         String fileName = classPath + "/"+className.replace(".", "/")+".class";

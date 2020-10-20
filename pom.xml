@@ -14,7 +14,7 @@
             <version>1.8</version>
             <scope>system</scope>
             <!-- replace with your local path of the tools.jar-->
-            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/lib/tools.jar</systemPath>
+            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/lib/tools.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>jdk.rt</groupId>
@@ -22,7 +22,7 @@
             <version>1.8</version>
             <scope>system</scope>
             <!-- replace with your local path of the tools.jar-->
-            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar</systemPath>
+            <systemPath>/Library/Java/JavaVirtualMachines/jdk1.8.0_66.jdk/Contents/Home/jre/lib/rt.jar</systemPath>
         </dependency>
     </dependencies>
     <build>

@@ -50,6 +50,7 @@ public class JvmOpcodeMethod implements JvmMethod {
         Slots<Object> locals = frame.getLocalVariables();
         int pos = 0;
         if(!method.access_flags.is(AccessFlags.ACC_STATIC)){
+            //slg_如果是非静态方法,那么本地变量表的第一个槽存放class对象,之后才是args
             locals.set(0, thiz, 1);
             pos++;
         }
